@@ -78,11 +78,6 @@
       </div>
     </section>
     <!-- authentication end-->
-    <!-- footer start-->
-      <footer class="codex-footer">
-        <p>Copyright 2022-23 © dmeki All rights reserved.</p>
-      </footer>
-    <!-- footer end-->
     <!-- back to top start //-->
       <div class="scroll-top"><i class="fa fa-angle-double-up"></i></div>
     <!-- back to top end //-->
