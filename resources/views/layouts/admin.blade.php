@@ -40,34 +40,8 @@
       <!-- sidebar start-->
       @include('layouts.sidebar')
       <!-- sidebar end-->
-    <div class="themebody-wrap">
-      <!-- breadcrumb start-->
-      <div class="codex-breadcrumb">
-        <div class="breadcrumb-contain">
-          <div class="left-breadcrumb">
-            <ul class="breadcrumb mb-0">
-              <li class="breadcrumb-item"><a href="index.html">
-                  <h1>Dashboard</h1></a></li>
-              <li class="breadcrumb-item active"><a href="javascript:void(0);">Default</a></li>
-            </ul>
-          </div>
-          <div class="right-breadcrumb">
-            <ul>
-              <li>
-                <div class="bread-wrap"><i class="fa fa-clock-o"></i></div><span class="liveTime"></span>
-              </li>
-              <li>
-                <div class="bread-wrap"><i class="fa fa-calendar"></i></div><span class="getDate"></span>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <!-- breadcrumb end-->
-      <!-- theme body start-->
-      @yield('content')
-      <!-- theme body end-->
-    </div>
+    
+    @yield('content')
     <!-- footer start-->
       <footer class="codex-footer">
         <p>Copyright 2022-23 © dmeki All rights reserved.</p>
