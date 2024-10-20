@@ -94,7 +94,6 @@
                             <div class="card-body">
                                 <div class="form-group">
                                     <label for="personalPhone" class="form-label">Phone Number</label>
-                                    <input class="form-control" id="personalPhone" type="text" placeholder="Phone Number" name="client_phone_number">
                                     <input class="form-control" id="personalPhone" type="text" placeholder="Phone Numbers (separated by commas)" name="client_phone_number" onkeydown="handleKeyDown(event)">
                                 </div>
                                 <div class="form-group">
