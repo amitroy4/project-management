@@ -40,7 +40,7 @@
       <!-- sidebar start-->
       @include('layouts.sidebar')
       <!-- sidebar end-->
-    
+
     @yield('content')
     <!-- footer start-->
       <footer class="codex-footer">
@@ -50,7 +50,11 @@
     <!-- back to top start //-->
       <div class="scroll-top"><i class="fa fa-angle-double-up"></i></div>
     <!-- back to top end //-->
+
+<!-- jQuery library -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
       <!-- main jquery-->
+      @stack('script')
       <script src="{{asset('admin')}}/assets/js/jquery-3.6.0.js"></script>
       <!-- Theme Customizer-->
       <script src="{{asset('admin')}}/assets/js/layout-storage.js"></script>
